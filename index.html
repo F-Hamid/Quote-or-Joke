@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jocke or Quote</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.google.com/s2/favicons?domain=jacinto.design"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <section class="quote-container" id="quote-container">
+      <div class="quote-text">
+        <i class="fas fa-quote-left quote-icon"></i>
+        <span id="quote"></span>
+      </div>
+      <!-- Author -->
+      <div class="quote-author center">
+        <span class="author"></span>
+      </div>
+    </section>
+
+    <!-- Spinnr laoder -->
+    <div class="loader" id="loader"></div>
+    <section class="jokes" id="jokes">
+      <h1 class="jokes-heading heading">JOKE</h1>
+    </section>
+    <section class="quotes" id="quotes">
+      <h1 class="quotes-heading heading">QUOTE</h1>
+    </section>
+    <!-- ScriptJs -->
+    <script type="module" src="/quotes.js"></script>
+    <script type="module" src="/jockes.js"></script>
+    <script type="module" src="/control.js"></script>
+  </body>
+</html>
