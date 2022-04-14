@@ -10,7 +10,6 @@ Using :
 
 # _JavaScript_ : fonctionalities
 
-
 ## _Deployment:_
 
-[https://budgetspa.netlify.app](https://budgetspa.netlify.app)
+[https://quote-jocke.netlify.app](https://quote-jocke.netlify.app)
