@@ -13,6 +13,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  cursor: pointer;
 }
 :root {
   font-size: 62.5%;
@@ -34,6 +35,8 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
+  cursor: pointer;
+
 }
 .quotes-heading {
   position: absolute;
@@ -42,6 +45,7 @@ body {
   /* opacity: 0.6; */
   margin-top: 1rem;
   transition: all 0.7s;
+  cursor: pointer;
 }
 
 .jokes {
@@ -90,6 +94,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  cursor: pointer;
 }
 .jokes-heading {
   font-size: 10rem;
@@ -123,6 +128,7 @@ body {
 .long-quote {
   font-size: 2rem;
   letter-spacing: 0.1rem;
+
 }
 .quote-icon {
   font-size: 4rem;
@@ -232,5 +238,6 @@ button:active {
   }
   .quote-text {
     font-size: 1.5rem;
+ 
   }
 }
